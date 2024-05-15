@@ -1,0 +1,108 @@
+*{
+  margin:0;
+padding:0;
+}
+
+.heading {
+  text-align: center;
+  padding: 1%;
+  background-color:rgb(95, 181, 221);
+  border-radius: 10px;
+  box-shadow: 0 5px 3px #333;
+;
+}
+.create-section{
+  padding:2%;
+  background-color: rgb(250, 185, 171);
+  border-radius: 15px;
+  width:60%;
+  
+  margin:5% auto
+  
+}
+.create-section .add-icon{
+  margin-left:90%;
+}
+
+.note-Container{
+   display:flex;
+   flex-flow:row nowrap;
+   margin-left: 70%;
+  
+   
+  }
+.note-container{
+  background-color: rgb(246, 202, 246);
+  width:35%;
+  height:27vh;
+  padding:2%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin:1%;
+}
+.note-container>div .icon{
+    margin:3px;
+  }
+
+
+  
+  
+.note-container .update-container{
+  display: flex;
+  flex-flow:column nowrap;
+  margin:1%;
+}
+.update-container input{
+ 
+  margin:5px;
+  border-radius: 5px;
+  height:25px;
+  padding:1%;
+}
+.update-container textarea{
+margin:5px;
+resize: none;
+border-radius: 5px;
+width:45px;
+padding:1%;
+
+}
+.update-container{
+  padding:1%;
+}
+
+.note-container .add-icon{
+  margin-left:70%;
+}
+.content-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 25vh;
+}
+
+.input-container input,
+.input-container textarea {
+  padding: 1%;
+  font-size: 25px;
+  margin: 1%;
+  border: none;
+}
+
+.input-container input {
+  width: 70%;
+  height: 20px;
+  border-radius: 5px;
+}
+.input-container textarea {
+  width: 70%;
+  border-radius: 10px;
+  height: 70px;
+  resize: none;
+}
+
+  
+
+
+
